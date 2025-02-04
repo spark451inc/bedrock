@@ -1,19 +1,14 @@
 {
-  "name": "roots/bedrock",
+  "name": "spark451inc/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
+  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure, with added default dependencies for Spark451",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Reuben Talbott",
+      "email": "rtalbott@spark451.com",
+      "homepage": "https://github.com/ReubenBTalbott"
     }
   ],
   "keywords": [
@@ -40,7 +35,10 @@
     "roots/wordpress": "6.7.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.2.0",
-    "wpackagist-theme/twentytwentyfive": "^1.0"
+    "wpackagist-theme/twentytwentyfive": "^1.0",
+    "wpackagist-plugin/gdpr-cookie-compliance": "^4.15",
+    "wpackagist-plugin/duracelltomi-google-tag-manager": "^1.20",
+    "wpackagist-plugin/wordfence": "^8.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
