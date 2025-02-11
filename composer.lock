@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9b58524067b22a1edd526382bd57e43",
+    "content-hash": "c2c6079501a1d8e71a2f4e7e402119b2",
     "packages": [
         {
             "name": "composer/installers",
@@ -1161,6 +1161,24 @@
             "homepage": "https://wordpress.org/plugins/wordfence/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "24.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/24.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
             "name": "wpackagist-theme/twentytwentyfive",
             "version": "1.0",
             "source": {
@@ -2129,6 +2147,6 @@
     "platform": {
         "php": ">=8.1"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
